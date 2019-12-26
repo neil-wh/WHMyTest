@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WHMyTest'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of WHMyTest.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/neil-wh/WHMyTest'
+  s.homepage         = 'https://github.com/neil-wh'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'neil-wh' => 'neil_wang1987@sina.cn' }

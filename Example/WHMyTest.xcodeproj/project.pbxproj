@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00256457032568B75527D272 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		0A3E5C0690F8800B15D8C6FD /* WHMyTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WHMyTest.podspec; path = ../WHMyTest.podspec; sourceTree = "<group>"; };
+		00256457032568B75527D272 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0A3E5C0690F8800B15D8C6FD /* WHMyTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WHMyTest.podspec; path = ../WHMyTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13A6F3EB1BB6AC0420D9C221 /* Pods-WHMyTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHMyTest_Example.release.xcconfig"; path = "Target Support Files/Pods-WHMyTest_Example/Pods-WHMyTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		45651FEDFBB9DC0D732008E3 /* Pods-WHMyTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHMyTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WHMyTest_Tests/Pods-WHMyTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WHMyTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHMyTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 		8C88236FE66E0DDFFC4B2365 /* Pods_WHMyTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHMyTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDFB4F13C5FEF3901E8628A /* Pods_WHMyTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHMyTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BA881DF7C1C02EB1DEF182 /* Pods-WHMyTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHMyTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-WHMyTest_Tests/Pods-WHMyTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DDD79295C109D037746C0A93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DDD79295C109D037746C0A93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				45651FEDFBB9DC0D732008E3 /* Pods-WHMyTest_Tests.debug.xcconfig */,
 				D8BA881DF7C1C02EB1DEF182 /* Pods-WHMyTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

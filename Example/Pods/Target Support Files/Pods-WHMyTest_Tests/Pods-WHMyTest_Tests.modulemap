@@ -1,0 +1,6 @@
+framework module Pods_WHMyTest_Tests {
+  umbrella header "Pods-WHMyTest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
